@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    transition: all 0.3s ease;
+}
+
+.light {
+    @apply bg-white text-black;
+}
+
+.dark {
+    @apply bg-slate-700 text-white;
+}
